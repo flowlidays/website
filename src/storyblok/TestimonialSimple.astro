@@ -4,8 +4,6 @@ import RichText from './utils/RichText.astro'
 import { Image } from 'astro:assets'
 import InlineSvg from './utils/InlineSvg.astro'
 const { blok } = Astro.props
-
-console.log(blok)
 ---
 
 <section class="container relative" {...storyblokEditable(blok)} data-aos="fade-up">
