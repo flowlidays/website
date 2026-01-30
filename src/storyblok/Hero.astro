@@ -29,7 +29,7 @@ let foregroundColor = blok.foregroundColorInvert ? 'text-base-100' : 'text-base-
             alt={blok.image.alt}
             class="max-h-screen object-cover h-full w-full"
             priority={blok.image.loading === 'eager' ? true : false}
-            layout="constrained"
+            layout="full-width"
             inferSize
           />
         )}
