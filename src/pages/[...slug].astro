@@ -18,6 +18,8 @@ let props = isPreview() ? parseUrl(params?.slug) : Astro.props
 const { slug, language, langSwitch } = props
 const storyblokApi = useStoryblokApi()
 
+console.log(`cdn/stories/${slug === undefined ? 'home' : slug}`)
+
 const { data } = await storyblokApi.get(`cdn/stories/${slug === undefined ? 'home' : slug}`, {
   version: isPreview() ? 'draft' : 'published',
   language,

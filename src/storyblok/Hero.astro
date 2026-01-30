@@ -27,7 +27,7 @@ let foregroundColor = blok.foregroundColorInvert ? 'text-base-100' : 'text-base-
           <Image
             src={blok.image.filename}
             alt={blok.image.alt}
-            class="max-h-screen object-cover h-full"
+            class="max-h-screen object-cover h-full w-full"
             priority={blok.image.loading === 'eager' ? true : false}
             layout="constrained"
             inferSize

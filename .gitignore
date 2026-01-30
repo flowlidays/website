@@ -1,6 +1,7 @@
 # build output
 dist/
 .netlify/
+.vercel
 # generated types
 .astro/
 
@@ -31,7 +32,9 @@ netlify.toml
 create-storyblok-structure/
 
 public/favicons/
-public/fonts/
+# public/fonts/
+
+
 
 #TODO
 TODO.md
