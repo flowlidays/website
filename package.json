@@ -27,6 +27,7 @@
     "clone-deep": "^4.0.1",
     "culori": "^4.0.1",
     "dotenv": "^16.5.0",
+    "keen-slider": "^6.8.6",
     "lenis": "^1.2.3",
     "preline": "^3.0.1",
     "probe-image-size": "^7.2.3",

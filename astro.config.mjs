@@ -66,6 +66,7 @@ export default defineConfig({
         masonryGallery: "storyblok/GalleryMasonry",
         image: "storyblok/ImageFullHeight",
         blogGallery: "storyblok/BlogGallery",
+        slider: "storyblok/Slider"
       },
     }),
     sitemap({
